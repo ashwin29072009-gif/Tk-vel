@@ -1,0 +1,2885 @@
+Below is the complete consolidated TK VEL ENTERPRISES master prompt from the beginning. It is written as a fresh-project development instruction, combining the original ecommerce requirements, advanced features, AI systems, admin and seller management, security, and the complete multilingual system.
+
+# TK VEL ENTERPRISES
+## COMPLETE MASTER PROMPT — FULL E-COMMERCE MARKETPLACE FROM SCRATCH
+
+**Brand Name:** TK VEL ENTERPRISES
+**Tagline:** Your Trusted Online Shopping Store
+**Founder & CEO:** T. Ashwin
+**Country:** India
+**Default Currency:** INR (₹)
+**Default Time Zone:** Asia/Kolkata
+**Default Language:** English
+**Business Email:** ashwintkenterprises@gmail.com
+**WhatsApp:** +91 95662 35195
+**Contact Number:** +91 91765 80731
+
+---
+
+# PART 1 — PROJECT START: BUILD A COMPLETELY NEW WEBSITE
+
+You are an expert software architect, senior full-stack developer, UI/UX designer, database engineer, AI engineer, cybersecurity specialist, DevOps engineer and quality assurance engineer.
+
+Your task is to design, develop and deploy a complete, original, production-ready ecommerce marketplace for **TK VEL ENTERPRISES**.
+
+### 1.1 Build from zero
+
+Create a completely new project from scratch.
+
+Do not continue, modify, clone, import, reuse or depend on any existing website, previous project, old source code, old database, old login system, old admin dashboard or old hosting configuration.
+
+Create everything independently:
+
+- New frontend.
+- New backend.
+- New database and schema.
+- New customer authentication.
+- New administrator authentication.
+- Separate Super Admin system.
+- New seller and employee portals.
+- New product management system.
+- New order management system.
+- New payment and shipping integrations.
+- New media and file storage.
+- New security architecture.
+- New API structure.
+- New website configuration.
+- New deployment and production setup.
+
+Do not use an old project URL as a development foundation.
+
+### 1.2 Before development
+
+First prepare:
+
+1. Complete technical architecture.
+2. Frontend page and component structure.
+3. Backend architecture.
+4. Database schema and relationships.
+5. Authentication and permission system.
+6. API endpoint plan.
+7. Payment and shipping integration plan.
+8. AI integration plan.
+9. Multilingual architecture.
+10. Security architecture.
+11. Testing plan.
+12. Development roadmap.
+
+Then build the actual working website.
+
+**Important:** Do not deliver only a static design, frontend mockup or nonfunctional demo. Every major feature must connect to its actual backend and database.
+
+---
+
+# PART 2 — BRAND IDENTITY AND DESIGN
+
+### 2.1 Brand identity
+
+Create a unique, professional and original brand identity for TK VEL ENTERPRISES.
+
+Design:
+
+- Original TK VEL logo.
+- Original TK VEL monogram.
+- Brand typography.
+- Brand colour system.
+- Website favicon.
+- Light-mode logo.
+- Dark-mode logo.
+- Mobile logo.
+- Desktop logo.
+- Social media logo.
+- Invoice logo.
+- Email branding.
+
+Use a premium green-and-white design with subtle gold accents.
+
+Do not copy another company's branding, logo or website design.
+
+### 2.2 Website appearance
+
+The website should look like a premium, trustworthy, modern ecommerce marketplace.
+
+Include:
+
+- Responsive layouts.
+- Clean navigation.
+- Premium product cards.
+- Modern search bar.
+- Smooth animations.
+- Professional icons.
+- Rounded cards and buttons.
+- Consistent spacing.
+- Attractive product images.
+- Elegant banners.
+- Clear typography.
+- Accessible colour contrast.
+- Fast loading.
+- Mobile-friendly controls.
+
+### 2.3 Themes
+
+Provide:
+
+- Light mode.
+- Dark mode.
+- System default mode.
+- Theme selector.
+- Persistent theme preference.
+
+Ensure both themes are professionally designed.
+
+---
+
+# PART 3 — COMPLETE CUSTOMER STOREFRONT
+
+Create a complete ecommerce homepage.
+
+### 3.1 Header
+
+Include:
+
+- TK VEL logo.
+- Search bar.
+- Language selector.
+- Location selector.
+- My Account.
+- Wishlist.
+- Cart.
+- Notifications.
+- Customer support.
+- Sign in / Register.
+
+### 3.2 Navigation menu
+
+Include:
+
+1. Home.
+2. Shop.
+3. Categories.
+4. Brands.
+5. New Arrivals.
+6. Best Sellers.
+7. Featured Products.
+8. Combo Offers.
+9. Today's Deals.
+10. Flash Sales.
+11. Special Offers.
+12. About Us.
+13. Contact Us.
+14. My Account.
+15. Wishlist.
+16. Cart.
+
+Create responsive desktop navigation and mobile navigation.
+
+### 3.3 Homepage sections
+
+Create configurable sections:
+
+- Hero banners.
+- Featured categories.
+- Popular categories.
+- Trending products.
+- New arrivals.
+- Best sellers.
+- Recommended products.
+- Special deals.
+- Combo offers.
+- Flash sales.
+- Featured brands.
+- Recently viewed.
+- Frequently bought together.
+- Customer reviews.
+- Promotional banners.
+- Festival offers.
+- Newsletter.
+- About TK VEL.
+- Customer support.
+
+Every homepage section must be manageable from the Admin Website Editor.
+
+Do not fabricate product popularity, ratings, reviews or sales figures.
+
+---
+
+# PART 4 — CUSTOMER AUTHENTICATION
+
+Build a secure registration and login system.
+
+### 4.1 Login options
+
+Support:
+
+- Continue with Google.
+- Email and password.
+- Phone number and OTP when an SMS provider is configured.
+- New customer registration.
+- Logout.
+- Forgot password.
+- Password reset.
+- Session management.
+
+### 4.2 Google authentication
+
+Use official Google OAuth.
+
+Requirements:
+
+- Verify tokens on the server.
+- Retrieve only permitted profile information.
+- Verify email status.
+- Prevent duplicate customer accounts.
+- Securely link accounts.
+- Handle failed authentication.
+- Do not ask customers to enter their Google password on TK VEL.
+
+### 4.3 Account security
+
+Include:
+
+- Secure password hashing.
+- Rate limiting.
+- Session expiry.
+- Secure cookies.
+- Login activity.
+- Device/session management.
+- Password change.
+- Login notifications.
+- Optional MFA.
+- Account recovery.
+
+Never store plain-text passwords.
+
+---
+
+# PART 5 — CUSTOMER LOCATION AND ADDRESS SYSTEM
+
+Create two separate address options.
+
+### 5.1 Use my current location
+
+Add a button:
+
+**USE MY CURRENT LOCATION**
+
+When selected:
+
+1. Ask the customer for location permission.
+2. Access coordinates only after permission is granted.
+3. Use a configured reverse-geocoding service.
+4. Retrieve available address information.
+5. Fill the address form.
+6. Allow the customer to review and edit all fields.
+7. Save only after customer confirmation.
+
+Address fields:
+
+- House number.
+- Building name.
+- Apartment.
+- Street.
+- Area.
+- Locality.
+- Landmark.
+- City.
+- District.
+- State.
+- PIN code.
+- Country.
+
+Never silently track customers.
+
+Do not continuously collect location data in the background.
+
+GPS may not identify the exact house or apartment. Always permit manual corrections.
+
+### 5.2 Enter address manually
+
+Add another option:
+
+**ENTER ADDRESS MANUALLY**
+
+Fields:
+
+- Full name.
+- House number.
+- Building.
+- Apartment.
+- Street.
+- Area.
+- Locality.
+- Landmark.
+- City.
+- District.
+- State.
+- PIN code.
+- Country.
+
+Customers can:
+
+- Add addresses.
+- Edit addresses.
+- Delete addresses.
+- Save multiple addresses.
+- Select default address.
+- Select delivery address.
+- Select billing address.
+- Label Home, Work or Other.
+
+Validate required fields and PIN codes.
+
+---
+
+# PART 6 — CUSTOMER PHONE NUMBER MANAGEMENT
+
+### 6.1 Primary phone number
+
+Include:
+
+- Country code selector.
+- Default country code +91.
+- Indian 10-digit mobile validation.
+- OTP verification when configured.
+- Editable phone number.
+- Primary contact designation.
+
+### 6.2 Additional phone numbers
+
+Allow customers to add optional additional numbers.
+
+Each number must have:
+
+- Separate country code.
+- Phone number.
+- Optional OTP verification.
+- Edit option.
+- Delete option.
+- Primary/additional designation.
+
+### 6.3 Checkout contact selection
+
+At checkout, allow the customer to select the phone number used for delivery communication.
+
+Save an order-time phone snapshot so historical orders remain accurate even if the customer changes their profile later.
+
+Never publicly expose private phone numbers.
+
+---
+
+# PART 7 — CUSTOMER ACCOUNT DASHBOARD
+
+Create a complete customer dashboard.
+
+Include:
+
+1. My Profile.
+2. Personal Information.
+3. My Addresses.
+4. My Phone Numbers.
+5. My Orders.
+6. Order Tracking.
+7. Order Details.
+8. Download Invoices.
+9. Wishlist.
+10. Recently Viewed.
+11. Product Comparison.
+12. My Reviews.
+13. Support Tickets.
+14. Notifications.
+15. Recently Purchased.
+16. Buy Again.
+17. Security Settings.
+18. Login Activity.
+19. Active Sessions.
+20. Privacy Settings.
+21. Notification Preferences.
+22. Download My Data.
+23. Account Deletion Request.
+24. Logout.
+
+Customers must be able to manage their own information securely.
+
+---
+
+# PART 8 — PRODUCT MANAGEMENT SYSTEM
+
+Create a complete product management system.
+
+### 8.1 Product creation
+
+Admin can:
+
+- Add products.
+- Edit products.
+- Delete products.
+- Duplicate products.
+- Archive products.
+- Publish products.
+- Unpublish products.
+- Manage product variants.
+- Manage stock.
+- Manage images.
+- Manage videos.
+- Manage specifications.
+
+### 8.2 Product information
+
+Include:
+
+- Product name.
+- SKU.
+- Barcode.
+- Brand.
+- Category.
+- Subcategory.
+- Short description.
+- Full description.
+- MRP.
+- Selling price.
+- Discount.
+- Stock quantity.
+- Weight.
+- Dimensions.
+- Colour.
+- Size.
+- Variants.
+- Specifications.
+- Warranty information.
+- Return eligibility.
+- Tax classification.
+- Shipping settings.
+- COD eligibility.
+- Payment eligibility.
+- SEO title.
+- SEO description.
+- Search tags.
+
+Product status:
+
+- Draft.
+- Pending.
+- Active.
+- Inactive.
+- Out of Stock.
+- Archived.
+
+### 8.3 Product images
+
+Support up to five images per product.
+
+Image categories:
+
+1. Main image.
+2. Front image.
+3. Back image.
+4. Side image.
+5. Additional image.
+
+Admin can:
+
+- Upload images from mobile.
+- Upload from tablet.
+- Upload from desktop.
+- Preview images.
+- Replace images.
+- Delete images.
+- Reorder images.
+- Select main image.
+- Compress images.
+- Generate thumbnails.
+- View upload progress.
+
+Store media in permanent, properly configured storage.
+
+### 8.4 Product videos
+
+Allow one product video per product.
+
+Features:
+
+- Upload video.
+- Preview video.
+- Play video.
+- Full-screen viewing.
+- Thumbnail.
+- Replace video.
+- Delete video.
+- File validation.
+- Upload progress.
+- Permanent storage.
+
+### 8.5 Real 360-degree product viewer
+
+Provide a genuine 360-degree viewing experience.
+
+Support:
+
+- Multiple genuine angle photographs.
+- GLB/glTF 3D models.
+- Drag to rotate.
+- Touch rotation.
+- Mouse rotation.
+- Zoom.
+- Full-screen mode.
+
+Do not claim that ordinary five-image product galleries are full 360-degree viewers.
+
+### 8.6 Product variants
+
+Allow products to have different:
+
+- Colours.
+- Sizes.
+- SKUs.
+- Prices.
+- MRP.
+- Stock quantities.
+- Images.
+- Weight.
+- Availability.
+
+Each variant must have independent inventory tracking.
+
+### 8.7 Advanced product features
+
+Include:
+
+- Product comparison.
+- Verified reviews.
+- Product questions and answers.
+- Similar products.
+- Recently viewed products.
+- Frequently bought together.
+- Product manuals.
+- Warranty registration.
+- Authenticity information.
+- PIN code availability.
+- Product demonstration videos.
+- Customizable products.
+- Product bundles.
+
+---
+
+# PART 9 — COMBO PRODUCT BUILDER
+
+Create an advanced combo management system.
+
+Admin can:
+
+- Create combos.
+- Edit combos.
+- Duplicate combos.
+- Publish combos.
+- Unpublish combos.
+- Archive combos.
+- Add multiple products.
+- Select product quantities.
+- Upload combo images.
+- Configure combo SKU.
+- Configure MRP.
+- Configure selling price.
+- Configure discount.
+- Configure stock.
+- Configure shipping.
+- Configure COD eligibility.
+- Configure payment eligibility.
+- Configure coupon eligibility.
+
+Example:
+
+**TK Home Essentials Combo**
+
+- Product A × 1.
+- Product B × 2.
+- Product C × 1.
+
+The system must calculate the actual component stock and prevent overselling.
+
+---
+
+# PART 10 — PRODUCT PRICING AND ADDITIONAL CHARGES
+
+Every product and combo must support independent pricing and charge settings.
+
+Admin can configure:
+
+- MRP.
+- Selling price.
+- Discount.
+- Delivery charge.
+- COD charge.
+- Packaging charge.
+- Handling charge.
+- Tax.
+- Payment method eligibility.
+- Coupon eligibility.
+- Shipping settings.
+
+### Example pricing configurations
+
+Example 1:
+
+- Product: ₹500.
+- Delivery: Free.
+- COD fee: ₹50.
+- UPI total: ₹500.
+- COD total: ₹550.
+
+Example 2:
+
+- Product: ₹800.
+- Delivery: ₹30.
+- COD fee: ₹25.
+- UPI total: ₹830.
+- COD total: ₹855.
+
+Example 3:
+
+- Product: ₹1,000.
+- Delivery: Free.
+- COD fee: ₹50.
+- UPI total: ₹1,000.
+- COD total: ₹1,050.
+
+These are examples only. Admin must configure actual values.
+
+### Pricing calculation rules
+
+- Calculate prices on the server.
+- Use integer paise for INR calculations.
+- Avoid duplicate delivery charges.
+- Define clear cart-level and item-level charge rules.
+- Validate COD eligibility for every item.
+- Show a complete price breakdown.
+- Recalculate at checkout.
+- Never trust browser-submitted totals.
+
+---
+
+# PART 11 — SEARCH, FILTER AND SORT
+
+Create an advanced search system.
+
+Search by:
+
+- Product name.
+- SKU.
+- Barcode.
+- Brand.
+- Category.
+- Subcategory.
+- Tags.
+- Product attributes.
+
+Filters:
+
+- Price range.
+- Category.
+- Brand.
+- Stock availability.
+- Colour.
+- Size.
+- Discount.
+- Ratings.
+- Combo products.
+
+Sorting:
+
+- Price: Low to High.
+- Price: High to Low.
+- Newest First.
+- Popularity.
+- Customer Ratings.
+- Best Sellers.
+- Biggest Discount.
+
+Add:
+
+- Search suggestions.
+- Autocomplete.
+- Recent searches.
+- Voice search.
+- Image search.
+- Barcode search.
+
+All results must come from the actual product database.
+
+---
+
+# PART 12 — SHOPPING CART
+
+Create a fully functional shopping cart.
+
+Features:
+
+- Add to cart.
+- Remove from cart.
+- Increase quantity.
+- Decrease quantity.
+- Add combo products.
+- Remove combo products.
+- Save for later.
+- Move to wishlist.
+- Apply coupons.
+- Remove coupons.
+- Calculate stock.
+- Calculate delivery.
+- Calculate COD.
+- Calculate taxes.
+- Show final total.
+
+Support multiple products and multiple combos in one cart.
+
+Show a clear breakdown of:
+
+- Product prices.
+- Discounts.
+- Delivery.
+- COD fees.
+- Taxes.
+- Other applicable charges.
+- Final payable amount.
+
+Validate all calculations on the server.
+
+---
+
+# PART 13 — CHECKOUT SYSTEM
+
+Create a secure and simple checkout experience.
+
+Customer information:
+
+- Full name.
+- Verified email.
+- Primary phone.
+- Optional additional phone.
+- Delivery address.
+- PIN code.
+- City.
+- State.
+- Delivery instructions.
+
+Address options:
+
+- Use saved address.
+- Use current location.
+- Enter address manually.
+
+Allow customers to select their delivery contact number.
+
+### Checkout validation
+
+Before order creation, validate:
+
+- Product availability.
+- Variant availability.
+- Combo component stock.
+- Quantity limits.
+- Product prices.
+- Discounts.
+- Coupon validity.
+- Delivery charges.
+- COD eligibility.
+- Payment method.
+- Address.
+- PIN serviceability.
+
+Save immutable order snapshots containing the purchased product details, address, phone, prices and selected options.
+
+---
+
+# PART 14 — PAYMENT GATEWAY
+
+Support:
+
+1. UPI.
+2. UPI QR.
+3. Configured payment gateway.
+4. Debit cards.
+5. Credit cards.
+6. Net banking.
+7. Supported payment applications.
+8. Cash on Delivery.
+
+### Payment management
+
+Admin can configure:
+
+- Payment gateway.
+- UPI ID.
+- UPI QR.
+- COD availability.
+- Payment method availability.
+- Payment restrictions.
+
+### Security
+
+- Use official payment gateway APIs.
+- Verify payment on the server.
+- Verify signed webhooks.
+- Use idempotency.
+- Protect payment secrets.
+- Never expose secret keys in frontend code.
+- Manual QR payments must remain pending until verified.
+- Uploaded screenshots must not automatically count as proof of payment.
+
+Support:
+
+- Payment retries.
+- Failed payment recovery.
+- Refund tracking.
+- Partial refunds.
+- Transaction history.
+- Payment receipts.
+- Payment reconciliation.
+- Configured payment offers.
+
+Gift cards, store credit and wallet features must follow applicable legal and payment-provider requirements.
+
+---
+
+# PART 15 — SHIPROCKET SHIPPING INTEGRATION
+
+Integrate Shiprocket using its official API.
+
+Support:
+
+- PIN code serviceability.
+- Courier availability.
+- Actual shipping charges.
+- Shipment creation.
+- AWB generation.
+- Shipping labels.
+- Pickup scheduling.
+- Tracking.
+- Delivery updates.
+- Shipment cancellation.
+- Return shipments.
+
+Default settings:
+
+- Default delivery charge: ₹0.
+- Default COD fee: ₹50.
+
+Both values must be editable by Admin.
+
+Do not invent courier availability, shipping prices, AWB numbers or tracking events.
+
+Show actual provider responses.
+
+---
+
+# PART 16 — ORDER MANAGEMENT
+
+Create complete order management.
+
+Order statuses:
+
+1. Pending.
+2. Payment Pending.
+3. Confirmed.
+4. Processing.
+5. Packed.
+6. Ready to Ship.
+7. Shipped.
+8. Out for Delivery.
+9. Delivered.
+10. Cancelled.
+11. Return Requested.
+12. Returned.
+13. Refund Pending.
+14. Refunded.
+
+Admin can:
+
+- Search orders.
+- Filter orders.
+- View order details.
+- View customer details.
+- View purchased products.
+- View combo components.
+- View delivery address.
+- View contact numbers.
+- Verify payments.
+- Create shipments.
+- Track shipments.
+- Cancel orders.
+- Process returns.
+- Process refunds.
+- Generate invoices.
+- Download reports.
+
+Support partial shipments when an order contains multiple products.
+
+Customers must see accurate order status and tracking updates.
+
+---
+
+# PART 17 — INVOICE MANAGEMENT
+
+Generate professional downloadable PDF invoices.
+
+Include:
+
+- TK VEL logo.
+- Business name.
+- Verified business details.
+- Invoice number.
+- Order number.
+- Invoice date.
+- Customer name.
+- Customer email.
+- Customer phone.
+- Delivery address.
+- Product names.
+- SKU.
+- Quantity.
+- Combo details.
+- MRP.
+- Selling price.
+- Discounts.
+- Delivery charge.
+- COD fee.
+- Tax details.
+- Payment method.
+- Payment status.
+- Final payable amount.
+
+Never invent GST numbers, registrations or business details.
+
+Only show tax registration information after it has been verified and configured.
+
+---
+
+# PART 18 — CUSTOMER SUPPORT SYSTEM
+
+Create a floating customer support button on every page.
+
+Support options:
+
+- WhatsApp.
+- Call.
+- Email.
+- Track Order.
+- Return Request.
+- Refund Support.
+- Payment Support.
+- Delivery Support.
+- Product Enquiry.
+- Support Tickets.
+- FAQs.
+
+Contact links:
+
+WhatsApp: https://wa.me/919566235195
+
+Call: tel:+919176580731
+
+Email: mailto:ashwintkenterprises@gmail.com
+
+### Ticket management
+
+Ticket statuses:
+
+- New.
+- Open.
+- In Progress.
+- Waiting for Customer.
+- Resolved.
+- Closed.
+
+Support:
+
+- Customer replies.
+- Admin replies.
+- Attachments.
+- Ticket history.
+- Internal notes.
+- Notifications.
+
+---
+
+# PART 19 — TK VEL AI SHOPPING ASSISTANT
+
+Create a separate floating AI assistant.
+
+Welcome message:
+
+"Welcome to TK VEL ENTERPRISES! I'm TK VEL AI, your shopping assistant. How can I help you today?"
+
+The assistant must use actual backend data.
+
+Capabilities:
+
+- Search products.
+- Find products within a budget.
+- Compare products.
+- Explain specifications.
+- Recommend combos.
+- Check actual discounts.
+- Check stock.
+- Check delivery availability.
+- Explain COD.
+- Explain payment options.
+- Assist with cart.
+- Explain returns.
+- Help with checkout.
+- Track authenticated customer orders.
+- Create support tickets.
+
+Never invent prices, discounts, stock, delivery dates or order information.
+
+Protect private customer data through authentication and permissions.
+
+---
+
+# PART 20 — ADMIN LOGIN AND DASHBOARD
+
+Create a completely separate Admin login.
+
+Example route:
+
+`/admin/login`
+
+Protected dashboard:
+
+`/admin/dashboard`
+
+Initial admin username:
+
+`ashwintk2908`
+
+Provision the administrator password securely during setup.
+
+Never hardcode or publish a password.
+
+### Admin security
+
+Include:
+
+- Secure password hashing.
+- Rate limiting.
+- Session management.
+- Logout.
+- Forgot password.
+- Password reset.
+- Optional MFA.
+- Login history.
+- Session expiry.
+- Role-based access.
+- Sensitive-action confirmation.
+
+### Admin dashboard modules
+
+Create the following modules:
+
+1. Overview.
+2. Products.
+3. Product Images.
+4. Product Videos.
+5. 360 Viewer.
+6. Combos.
+7. Categories.
+8. Brands.
+9. Pricing.
+10. Additional Charges.
+11. Orders.
+12. Payments.
+13. Shipping.
+14. Customers.
+15. Sellers.
+16. Employees.
+17. Inventory.
+18. Warehouses.
+19. Suppliers.
+20. Coupons.
+21. Flash Sales.
+22. Marketing.
+23. AI Studio.
+24. Customer Support.
+25. Website Editor.
+26. Feature Manager.
+27. Analytics.
+28. Reports.
+29. Notifications.
+30. Content Management.
+31. Integrations.
+32. Security.
+33. Settings.
+34. Language Management.
+35. Translation Management.
+36. Expenses.
+37. Financial Reconciliation.
+38. Gift Cards.
+39. Loyalty.
+40. Affiliate Management.
+
+### Dashboard metrics
+
+Display real data:
+
+- Total orders.
+- Confirmed orders.
+- Pending orders.
+- Paid revenue.
+- Pending payments.
+- COD orders.
+- Delivered orders.
+- Cancelled orders.
+- Refunds.
+- Total customers.
+- Active products.
+- Out-of-stock products.
+- Low-stock products.
+- Best-selling products.
+- Combo sales.
+- Shipping performance.
+
+Never generate fake dashboard statistics.
+
+---
+
+# PART 21 — CUSTOMER MANAGEMENT
+
+Admin can view and manage authorized customer information.
+
+Include:
+
+- Customer name.
+- Verified email.
+- Primary phone.
+- Additional phone numbers.
+- Saved addresses.
+- Registration date.
+- Order history.
+- Account status.
+- Support history.
+
+Apply role-based access and mask sensitive information in exports.
+
+Do not expose customer information to unauthorized staff.
+
+---
+
+# PART 22 — SUPER ADMIN SYSTEM
+
+Create a separate Super Admin system.
+
+Super Admin capabilities:
+
+- Create administrators.
+- Edit administrator accounts.
+- Assign roles.
+- Manage permissions.
+- Manage employees.
+- Manage sellers.
+- Manage integrations.
+- Manage security.
+- Manage audit logs.
+- Manage backups.
+- Manage global settings.
+- Manage features.
+- Manage translations.
+- Manage AI usage.
+- Monitor errors.
+- Manage website configuration.
+
+Use strong authentication and permission checks.
+
+Do not create a universal password, hidden backdoor or unauthenticated Super Admin access.
+
+---
+
+# PART 23 — FEATURE MANAGER
+
+Create a dynamic Feature Manager.
+
+Super Admin can:
+
+- Enable features.
+- Disable features.
+- Configure features.
+- Add homepage sections.
+- Add promotional sections.
+- Add categories.
+- Add menu items.
+- Manage integrations.
+- Preview changes.
+- Publish changes.
+- Roll back changes.
+
+Feature toggles must be enforced by backend permissions and server-side configuration.
+
+Do not allow arbitrary code execution through a text editor.
+
+---
+
+# PART 24 — WEBSITE VISUAL EDITOR
+
+Create an admin-friendly visual website editor.
+
+Admin can:
+
+- Edit homepage.
+- Change banners.
+- Edit text.
+- Upload images.
+- Rearrange sections.
+- Edit navigation.
+- Create landing pages.
+- Preview desktop.
+- Preview mobile.
+- Save drafts.
+- Publish updates.
+- View version history.
+- Restore earlier versions.
+
+Changes should be saved safely and published only after confirmation.
+
+---
+
+# PART 25 — SELLER MARKETPLACE
+
+Create a complete seller system.
+
+Features:
+
+- Seller registration.
+- Seller verification.
+- Seller approval.
+- Seller dashboard.
+- Seller profile.
+- Seller product management.
+- Seller stock management.
+- Seller orders.
+- Seller reports.
+- Commission management.
+- Seller disputes.
+- Seller notifications.
+- Payout information.
+
+Seller products must pass configured approval rules.
+
+Actual seller payouts must not be represented as operational until payment integration, banking configuration and compliance requirements are completed.
+
+---
+
+# PART 26 — EMPLOYEE MANAGEMENT
+
+Create employee accounts with role-based permissions.
+
+Roles:
+
+- Super Admin.
+- Admin.
+- Product Manager.
+- Inventory Manager.
+- Order Manager.
+- Customer Support.
+- Marketing Manager.
+- Finance Manager.
+- Warehouse Staff.
+- Seller Manager.
+
+Features:
+
+- Employee invitations.
+- Role assignment.
+- Permission management.
+- Account activation.
+- Deactivation.
+- Activity logs.
+- Attendance.
+- Task management.
+- Approval workflows.
+
+Apply least-privilege access.
+
+---
+
+# PART 27 — TK VEL AI SUPER STUDIO
+
+Create an advanced AI management centre called:
+
+**TK VEL AI SUPER STUDIO**
+
+Include these tools:
+
+1. AI Product Creator.
+2. AI Image Generator.
+3. AI Video Creator.
+4. AI Combo Creator.
+5. AI Pricing Assistant.
+6. AI Marketing Studio.
+7. AI SEO Assistant.
+8. AI Customer Support.
+9. AI Shopping Assistant.
+10. AI Analytics.
+11. AI Inventory Assistant.
+12. AI Translation Assistant.
+13. AI Website Builder.
+14. AI Feature Creator.
+15. AI Report Generator.
+16. AI Admin Assistant.
+
+### 27.1 AI Product Creator
+
+Generate:
+
+- Product titles.
+- Descriptions.
+- Verified features.
+- Specifications.
+- SEO titles.
+- SEO descriptions.
+- Search tags.
+- Marketing copy.
+
+Do not invent product specifications.
+
+### 27.2 AI Image Generator
+
+Generate:
+
+- Product promotional graphics.
+- Advertisement images.
+- Banners.
+- Combo promotional images.
+- Festival promotions.
+- Social media graphics.
+
+AI-generated promotional imagery must not be falsely presented as a genuine photograph of the actual product.
+
+### 27.3 AI Video Creator
+
+Create:
+
+- Product promotional videos.
+- Combo advertisements.
+- Brand videos.
+- Social media videos.
+- Marketing clips.
+
+### 27.4 AI Combo Creator
+
+Recommend combos based on actual available products.
+
+Require admin approval before publishing.
+
+### 27.5 AI Pricing Assistant
+
+Analyze:
+
+- Product cost.
+- Selling price.
+- Discounts.
+- Shipping.
+- Fees.
+- Recorded expenses.
+
+Provide pricing recommendations.
+
+Require approval before applying changes.
+
+### 27.6 AI Marketing Studio
+
+Generate:
+
+- Social media posts.
+- Captions.
+- Email campaigns.
+- WhatsApp message drafts.
+- Promotional banners.
+- SEO content.
+- Festival campaigns.
+
+Require review and appropriate customer consent before sending campaigns.
+
+### 27.7 AI Website Builder
+
+Allow authorized administrators to describe website changes.
+
+Workflow:
+
+1. Understand request.
+2. Create implementation plan.
+3. Propose database changes.
+4. Propose API changes.
+5. Generate code changes.
+6. Validate code.
+7. Preview changes.
+8. Request approval.
+9. Deploy securely.
+10. Support rollback.
+
+Never allow AI-generated changes to bypass security or permission checks.
+
+### 27.8 AI analytics
+
+Analyze actual data:
+
+- Sales.
+- Orders.
+- Best sellers.
+- Low stock.
+- Pending orders.
+- Coupon performance.
+- Customer feedback.
+- Inventory trends.
+
+### 27.9 AI integration security
+
+Support secure provider configuration.
+
+Include:
+
+- API key management.
+- Secure server-side key storage.
+- Model selection.
+- Usage limits.
+- Cost monitoring.
+- Error handling.
+- Audit logs.
+
+Never expose AI API keys in frontend code.
+
+---
+
+# PART 28 — INVENTORY AND WAREHOUSE MANAGEMENT
+
+Create multi-warehouse inventory management.
+
+Features:
+
+- Multiple warehouses.
+- Warehouse addresses.
+- Warehouse staff.
+- Product SKU stock.
+- Variant stock.
+- Combo component stock.
+- Stock reservations.
+- Stock movements.
+- Stock transfers.
+- Purchase records.
+- Low-stock alerts.
+- Out-of-stock alerts.
+- Inventory reports.
+- Return-to-stock management.
+
+Use database transactions to prevent overselling.
+
+---
+
+# PART 29 — SUPPLIER MANAGEMENT
+
+Create supplier management.
+
+Include:
+
+- Supplier name.
+- Contact person.
+- Email.
+- Phone.
+- Address.
+- Supplier products.
+- Purchase orders.
+- Purchase costs.
+- Incoming stock.
+- Supplier invoices.
+- Goods receipts.
+- Purchase history.
+- Supplier reports.
+
+---
+
+# PART 30 — COUPONS, DISCOUNTS AND FLASH SALES
+
+Create an advanced coupon management system.
+
+Coupon types:
+
+- Percentage discount.
+- Fixed discount.
+- First-order coupon.
+- Product-specific coupon.
+- Category coupon.
+- Combo coupon.
+- Customer-specific coupon.
+
+Settings:
+
+- Minimum order amount.
+- Maximum discount.
+- Expiry date.
+- Usage limits.
+- Customer eligibility.
+- Product eligibility.
+- Category eligibility.
+- Combo eligibility.
+- Campaign settings.
+
+Include:
+
+- Flash sales.
+- Festival sales.
+- Special offers.
+- Limited-time promotions.
+
+Validate every coupon on the server.
+
+Do not use fake scarcity or fabricated countdowns.
+
+---
+
+# PART 31 — WISHLIST AND PRODUCT COMPARISON
+
+Create:
+
+- Add to wishlist.
+- Remove from wishlist.
+- Multiple wishlist lists.
+- Shareable wishlist.
+- Move wishlist item to cart.
+- Product comparison.
+- Recently compared products.
+- Compare product specifications.
+
+Shareable wishlists must not reveal private customer information.
+
+---
+
+# PART 32 — REVIEWS AND RATINGS
+
+Create a genuine review system.
+
+Customers can:
+
+- Give star ratings.
+- Write reviews.
+- Upload review images.
+- Edit permitted reviews.
+- Report reviews.
+
+Admin can:
+
+- Moderate reviews.
+- Approve or reject reviews.
+- Respond to reviews.
+- Remove policy-violating content.
+
+Use verified purchase labels where applicable.
+
+Never create fake reviews or fake ratings.
+
+---
+
+# PART 33 — LOYALTY, REFERRALS AND REWARDS
+
+Create a configurable loyalty system.
+
+Include:
+
+- Loyalty points.
+- Membership levels.
+- Customer rewards.
+- Referral codes.
+- Referral tracking.
+- Reward redemption.
+- Coupon rewards.
+- Point expiry.
+- Loyalty history.
+
+Apply fraud prevention and clear redemption conditions.
+
+---
+
+# PART 34 — GIFT CARDS AND STORE CREDIT
+
+Support:
+
+- Digital gift cards.
+- Configurable gift card values.
+- Unique gift card codes.
+- Expiry dates.
+- Redemption.
+- Remaining balance.
+- Store credit.
+- Eligible refund credit.
+
+Maintain a secure transaction ledger.
+
+Apply appropriate legal and payment-provider restrictions.
+
+---
+
+# PART 35 — NOTIFICATION SYSTEM
+
+Create notifications through supported providers.
+
+Channels:
+
+- Website notifications.
+- Email.
+- SMS.
+- WhatsApp.
+- Push notifications.
+
+Events:
+
+- Registration.
+- OTP.
+- Order placed.
+- Payment received.
+- Payment failed.
+- Order confirmed.
+- Order shipped.
+- Tracking update.
+- Out for delivery.
+- Delivered.
+- Cancelled.
+- Return requested.
+- Refund processed.
+- Back in stock.
+- Price drop.
+- Security alert.
+
+Include:
+
+- Customer notification preferences.
+- Marketing consent.
+- Delivery status.
+- Provider error handling.
+- Notification history.
+
+Never claim that a message was delivered unless the provider confirms it.
+
+---
+
+# PART 36 — MARKETING AND CUSTOMER ENGAGEMENT
+
+Create marketing management tools.
+
+Include:
+
+- Referral campaigns.
+- Birthday coupons.
+- Festival offers.
+- Abandoned cart reminders.
+- Customer segmentation.
+- Email campaigns.
+- WhatsApp campaigns.
+- Landing pages.
+- Affiliate marketing.
+- Influencer tracking.
+- Social sharing.
+- Campaign analytics.
+
+Respect customer communication preferences and consent.
+
+---
+
+# PART 37 — CONTENT MANAGEMENT SYSTEM
+
+Create editable content pages.
+
+Include:
+
+- About Us.
+- Contact Us.
+- FAQs.
+- Privacy Policy.
+- Terms and Conditions.
+- Shipping Policy.
+- Return Policy.
+- Refund Policy.
+- Cancellation Policy.
+- Payment Policy.
+- Seller Policy.
+- Support Policy.
+- Blog.
+- Announcements.
+- Social links.
+- Landing pages.
+
+Support:
+
+- Draft.
+- Preview.
+- Publish.
+- Archive.
+- Version history.
+
+Policies must be reviewed before publication.
+
+---
+
+# PART 38 — ADVANCED ANALYTICS AND REPORTS
+
+Create analytics based on real database records.
+
+Report categories:
+
+- Sales.
+- Orders.
+- Products.
+- Combos.
+- Payments.
+- Inventory.
+- Returns.
+- Refunds.
+- Coupons.
+- Customers.
+- Sellers.
+- Shipping.
+- Expenses.
+- Profit.
+- Marketing.
+
+Date filters:
+
+- Today.
+- Yesterday.
+- This Week.
+- This Month.
+- Last Month.
+- Custom Date Range.
+
+Financial reporting must separate:
+
+- Paid revenue.
+- Pending payments.
+- COD orders.
+- Cancelled orders.
+- Refunds.
+- Net revenue.
+- Recorded expenses.
+- Product costs.
+- Actual profit where sufficient cost information exists.
+
+Exports:
+
+- Excel.
+- CSV.
+- PDF.
+
+Include scheduled reports and configurable dashboard widgets.
+
+Never count unpaid orders as paid revenue.
+
+---
+
+# PART 39 — GLOBAL ECOMMERCE FEATURES
+
+Design the architecture to support international expansion.
+
+Include:
+
+- Multiple countries.
+- Multiple currencies.
+- Exchange rate management.
+- International addresses.
+- International shipping.
+- Regional tax configuration.
+- Regional payment methods.
+- Country-specific product availability.
+- Multilingual SEO.
+- Regional privacy requirements.
+
+Default configuration must remain India and INR.
+
+Do not activate international selling until required shipping, tax, payment and compliance arrangements are configured.
+
+---
+
+# PART 40 — ADVANCED CUSTOMER EXPERIENCE
+
+Include:
+
+- Progressive Web App (PWA).
+- Installable website.
+- Responsive Android experience.
+- Tablet support.
+- Laptop support.
+- Desktop support.
+- Optional push notifications.
+- Skeleton loading.
+- Optimized low-bandwidth experience.
+- Accessible interface.
+- Recently searched products.
+- Customizable homepage.
+- Mega menu.
+- Quick product view.
+- Recently compared products.
+- Personalized product recommendations.
+
+Floating support and AI buttons must never cover checkout or payment controls.
+
+---
+
+# PART 41 — ADVANCED SECURITY
+
+Implement:
+
+- Secure authentication.
+- Role-based access control.
+- Server-side authorization.
+- Password hashing.
+- Secure sessions.
+- Rate limiting.
+- CSRF protection where applicable.
+- XSS protection.
+- SQL injection protection.
+- Input validation.
+- Secure file upload.
+- API security.
+- Audit logs.
+- Backup monitoring.
+- Disaster recovery.
+- Data retention.
+- Consent management.
+- Sensitive-action confirmation.
+- Suspicious login alerts.
+- Login activity.
+- Device management.
+- Optional passkeys.
+- MFA.
+- Admin IP restrictions where appropriate.
+
+Never expose passwords, API keys, payment secrets or private customer information.
+
+---
+
+# PART 42 — COMPLETE MULTILINGUAL WEBSITE SYSTEM
+
+**This is a mandatory core requirement. The entire website must support changing languages.**
+
+Create a scalable multilingual architecture for the customer website and every dashboard.
+
+### 42.1 Initial supported language list
+
+Support the following 50 languages as the initial language catalogue:
+
+1. English.
+2. Tamil.
+3. Hindi.
+4. Telugu.
+5. Kannada.
+6. Malayalam.
+7. Bengali.
+8. Marathi.
+9. Gujarati.
+10. Punjabi.
+11. Urdu.
+12. Odia.
+13. Assamese.
+14. Sanskrit.
+15. Nepali.
+16. Konkani.
+17. Kashmiri.
+18. Sindhi.
+19. Manipuri.
+20. Bodo.
+21. Dogri.
+22. Maithili.
+23. Santali.
+24. French.
+25. Spanish.
+26. German.
+27. Portuguese.
+28. Italian.
+29. Dutch.
+30. Russian.
+31. Arabic.
+32. Chinese Simplified.
+33. Chinese Traditional.
+34. Japanese.
+35. Korean.
+36. Thai.
+37. Vietnamese.
+38. Indonesian.
+39. Turkish.
+40. Sinhala.
+41. Hebrew.
+42. Polish.
+43. Greek.
+44. Swedish.
+45. Danish.
+46. Norwegian.
+47. Finnish.
+48. Romanian.
+49. Ukrainian.
+50. Persian.
+
+Build the architecture so additional languages can be added through Language Management.
+
+Do not advertise a language as fully supported until its translations, fonts and layouts have been configured and tested.
+
+### 42.2 Language selector
+
+Display a language selector in:
+
+- Desktop header.
+- Mobile header/menu.
+- Footer.
+- Customer dashboard.
+- Admin dashboard.
+- Super Admin dashboard.
+- Seller dashboard.
+- Employee dashboard.
+
+Include:
+
+- Native language names.
+- Searchable language selector.
+- Language search.
+- Current language indicator.
+- Easy switching.
+
+Example:
+
+- English.
+- தமிழ்.
+- हिन्दी.
+- తెలుగు.
+- ಕನ್ನಡ.
+- മലയാളം.
+
+### 42.3 Full website translation
+
+Changing the language must translate all website-owned text.
+
+Translate:
+
+**Storefront**
+- Header.
+- Footer.
+- Navigation.
+- Homepage.
+- Categories.
+- Product listings.
+- Product details.
+- Product specifications where appropriate.
+- Search.
+- Filters.
+- Sorting.
+- Cart.
+- Checkout.
+- Forms.
+- Buttons.
+- Popups.
+- Error messages.
+
+**Customer account**
+- Profile.
+- Addresses.
+- Phone numbers.
+- Orders.
+- Tracking.
+- Invoices where supported.
+- Wishlist.
+- Reviews.
+- Support tickets.
+- Notifications.
+- Security settings.
+
+**Admin**
+- Dashboard.
+- Product management.
+- Combo management.
+- Orders.
+- Payments.
+- Shipping.
+- Customers.
+- Sellers.
+- Employees.
+- Inventory.
+- Warehouses.
+- Suppliers.
+- Analytics.
+- Reports.
+- Settings.
+- Security.
+- Content management.
+
+**Super Admin**
+- User management.
+- Roles.
+- Permissions.
+- Integrations.
+- Feature Manager.
+- Audit logs.
+- Language management.
+- Translation management.
+- AI settings.
+
+**Other systems**
+- TK VEL AI.
+- AI Super Studio.
+- Customer support.
+- FAQs.
+- Policies.
+- Notifications.
+- Email templates.
+- Supported SMS/WhatsApp templates.
+- Error messages.
+- Reports and exports where supported.
+
+Google-controlled authentication and consent screens may remain in Google's own language settings; localize the website-owned login interface.
+
+### 42.4 Translation engine
+
+Create a proper translation system.
+
+Requirements:
+
+- Configurable translation API.
+- Automatic translation of new content.
+- Manual translation editing.
+- Translation approval workflow.
+- Database-backed translations.
+- Translation caching.
+- Missing translation detection.
+- English fallback.
+- Translation history.
+- Import and export.
+
+Never overwrite an approved human translation with automatic translation without authorization.
+
+### 42.5 Dynamic product translation
+
+Translate appropriate product content:
+
+- Product titles.
+- Descriptions.
+- Categories.
+- Attributes.
+- Specifications.
+- Promotional text.
+
+Preserve:
+
+- Brand names.
+- Product model numbers.
+- SKU.
+- Barcode.
+- Technical identifiers.
+
+Ensure product specifications are not changed into inaccurate information.
+
+### 42.6 RTL language support
+
+Properly support right-to-left layouts for:
+
+- Arabic.
+- Urdu.
+- Hebrew.
+- Persian.
+
+Include:
+
+- RTL page direction.
+- Mirrored navigation where appropriate.
+- Correct text alignment.
+- Correct icon placement.
+- Forms.
+- Menus.
+- Checkout.
+- Dashboards.
+
+### 42.7 Fonts and regional formatting
+
+Support Unicode and appropriate fonts.
+
+Format:
+
+- Dates.
+- Times.
+- Numbers.
+- Currency.
+- Decimal separators.
+- Regional address layouts.
+
+Default currency remains INR unless the customer selects a configured supported market.
+
+### 42.8 Save language preference
+
+Remember the selected language.
+
+For registered customers, save it in the customer profile.
+
+For anonymous visitors, use an appropriate persistent preference mechanism.
+
+After logout and login, restore the selected language.
+
+Browser language may be suggested but must never force a language change.
+
+Changing languages must not clear:
+
+- Cart.
+- Customer session.
+- Saved addresses.
+- Wishlist.
+- Checkout progress.
+- Order information.
+
+### 42.9 Language Management dashboard
+
+Super Admin can:
+
+- Add languages.
+- Enable languages.
+- Disable languages.
+- Set default language.
+- Edit translations.
+- Approve translations.
+- Import translations.
+- Export translations.
+- Manage translation API.
+- Find missing translations.
+- Preview translations.
+- Configure RTL.
+- Manage fonts.
+
+### 42.10 Multilingual quality testing
+
+Test each enabled language on:
+
+- Desktop.
+- Mobile.
+- Tablet.
+- Homepage.
+- Search.
+- Product details.
+- Cart.
+- Checkout.
+- Customer dashboard.
+- Admin dashboard.
+- Seller dashboard.
+- Employee dashboard.
+- AI assistant.
+- Notifications.
+- Emails.
+
+No broken translation keys, missing text or incorrect layout should remain in a language marked fully supported.
+
+---
+
+# PART 43 — ADVANCED SMART SHOPPING FEATURES
+
+Add the following enhancements:
+
+1. Smart product recommendations.
+2. Personalized product discovery.
+3. AI-powered product search.
+4. Visual product search.
+5. Voice-based shopping.
+6. Barcode search.
+7. Smart category recommendations.
+8. Similar product discovery.
+9. Frequently bought together.
+10. Intelligent combo suggestions.
+11. Price-drop alerts.
+12. Back-in-stock alerts.
+13. Saved shopping lists.
+14. Quick reorder.
+15. Buy Again.
+16. Product availability by PIN code.
+17. Product comparison history.
+18. Shareable product links.
+19. Shareable wishlists.
+20. Recently viewed products.
+
+Recommendations must be based on actual products and available inventory.
+
+---
+
+# PART 44 — ADVANCED ORDER TRACKING
+
+Create a modern order tracking experience.
+
+Include:
+
+- Order timeline.
+- Payment status.
+- Order confirmation.
+- Packing status.
+- Shipment status.
+- Courier details.
+- AWB.
+- Actual tracking events.
+- Delivery status.
+- Return status.
+- Refund status.
+
+Provide a tracking page for authenticated customers.
+
+Optional public tracking links must use secure, unguessable tokens and disclose only minimum necessary information.
+
+Never invent tracking events.
+
+---
+
+# PART 45 — ADVANCED RETURNS AND REFUNDS
+
+Create a complete returns workflow.
+
+Include:
+
+- Return eligibility.
+- Return request.
+- Return reason.
+- Optional supporting images.
+- Admin review.
+- Return approval.
+- Return rejection with reason.
+- Pickup scheduling.
+- Return shipment tracking.
+- Product inspection.
+- Refund approval.
+- Refund processing.
+- Refund status.
+- Customer notifications.
+
+Configure return windows and policies through Admin.
+
+Do not promise refunds before payment provider confirmation.
+
+---
+
+# PART 46 — AI-POWERED BUSINESS INTELLIGENCE
+
+Add advanced AI analysis using actual business data.
+
+Include:
+
+- Sales trend analysis.
+- Demand forecasting.
+- Inventory forecasting.
+- Stock shortage alerts.
+- Product performance analysis.
+- Customer feedback summaries.
+- Coupon performance analysis.
+- Return reason classification.
+- Suspicious transaction alerts.
+- Revenue summaries.
+- Expense summaries.
+- Marketing performance insights.
+
+AI must explain when data is insufficient and must not present estimates as verified financial results.
+
+---
+
+# PART 47 — ADVANCED MEDIA AND PRODUCT CONTENT
+
+Support:
+
+- Responsive product images.
+- WebP/AVIF where supported.
+- Automatic thumbnails.
+- Image compression.
+- Video compression where available.
+- Product image quality checks.
+- Duplicate image detection.
+- Image ordering.
+- Alt text.
+- Media storage monitoring.
+- Upload size limits.
+- Secure file validation.
+
+Do not use generated images to misrepresent actual product appearance.
+
+---
+
+# PART 48 — FINANCIAL AND BUSINESS OPERATIONS
+
+Create financial operations management.
+
+Include:
+
+- Product purchase cost.
+- Supplier invoices.
+- Operational expenses.
+- Shipping expenses.
+- Payment gateway fees.
+- COD charges.
+- Refunds.
+- Seller commissions.
+- Tax records.
+- Payment reconciliation.
+- Expense categories.
+- Financial reports.
+
+Only calculate profit when the necessary cost and expense information is recorded.
+
+Keep financial records auditable.
+
+---
+
+# PART 49 — DATABASE ARCHITECTURE
+
+Design a normalized and scalable database.
+
+Include suitable tables or collections for:
+
+- Users.
+- Roles.
+- Permissions.
+- Customers.
+- Customer profiles.
+- Addresses.
+- Primary phone numbers.
+- Additional phone numbers.
+- Authentication identities.
+- Sellers.
+- Employees.
+- Products.
+- Product variants.
+- Categories.
+- Brands.
+- Product media.
+- Product videos.
+- 360-degree assets.
+- Combos.
+- Combo components.
+- Pricing.
+- Additional charges.
+- Inventory.
+- Warehouses.
+- Stock movements.
+- Suppliers.
+- Purchase orders.
+- Carts.
+- Cart items.
+- Coupons.
+- Orders.
+- Order items.
+- Address snapshots.
+- Phone snapshots.
+- Price snapshots.
+- Payments.
+- Refunds.
+- Shipments.
+- Tracking events.
+- Invoices.
+- Reviews.
+- Wishlists.
+- Comparisons.
+- Loyalty points.
+- Referrals.
+- Gift cards.
+- Store credit.
+- Notifications.
+- Support tickets.
+- AI usage.
+- Translation records.
+- Languages.
+- Content.
+- Expenses.
+- Audit logs.
+- Integration settings.
+
+Requirements:
+
+- Database migrations.
+- Foreign keys.
+- Unique constraints.
+- Indexes.
+- Transactions.
+- Secure access rules.
+- Immutable order snapshots.
+- Integer paise for currency calculations.
+- Appropriate data retention.
+- Backup and recovery.
+
+Store product images and videos in suitable object storage, not as ordinary product metadata blobs.
+
+---
+
+# PART 50 — BACKEND API ARCHITECTURE
+
+Create secure APIs for:
+
+- Authentication.
+- Google OAuth.
+- Customer profiles.
+- Addresses.
+- Phone numbers.
+- Location.
+- Products.
+- Product images.
+- Videos.
+- 360-degree assets.
+- Variants.
+- Categories.
+- Brands.
+- Combos.
+- Pricing.
+- Charges.
+- Search.
+- Cart.
+- Checkout.
+- Payments.
+- Orders.
+- Invoices.
+- Inventory.
+- Warehouses.
+- Suppliers.
+- Sellers.
+- Employees.
+- Coupons.
+- Shipping.
+- Notifications.
+- Reviews.
+- Wishlists.
+- Comparisons.
+- Support.
+- AI.
+- Analytics.
+- Content.
+- Integrations.
+- Translations.
+- Languages.
+- Gift cards.
+- Loyalty.
+- Expenses.
+- Reports.
+
+Every API must implement:
+
+- Authentication where required.
+- Authorization.
+- Input validation.
+- Server-side calculations.
+- Error handling.
+- Rate limiting where appropriate.
+- Logging.
+- Secure data access.
+
+---
+
+# PART 51 — SEO AND PERFORMANCE
+
+Implement:
+
+- SEO-friendly URLs.
+- Page titles.
+- Meta descriptions.
+- Semantic HTML.
+- Product structured data.
+- Canonical URLs.
+- Sitemap.
+- Robots.txt.
+- Open Graph metadata.
+- Optimized images.
+- Lazy loading.
+- Caching.
+- CDN support.
+- Fast search.
+- Database optimization.
+- Error monitoring.
+- Multilingual SEO.
+
+Ensure mobile performance is a priority.
+
+---
+
+# PART 52 — LEGAL AND COMPLIANCE READINESS
+
+Create configurable pages and workflows for:
+
+- Privacy policy.
+- Terms and conditions.
+- Shipping policy.
+- Return policy.
+- Refund policy.
+- Cancellation policy.
+- Cookie and consent preferences where applicable.
+- Seller agreements.
+- Customer data requests.
+
+Do not invent:
+
+- GST registration.
+- Business registration.
+- Licences.
+- Official business address.
+- Tax identification numbers.
+- Certifications.
+
+Use only verified details supplied by the business owner.
+
+Ensure applicable Indian and other market requirements are reviewed before launch.
+
+---
+
+# PART 53 — INTEGRATIONS AND EXTERNAL SERVICES
+
+Prepare configurable integrations for:
+
+- Google OAuth.
+- Email provider.
+- SMS/OTP provider.
+- WhatsApp Business provider.
+- Payment gateway.
+- Shiprocket.
+- Maps/geocoding.
+- Translation API.
+- AI model provider.
+- Object storage.
+- Analytics.
+- Push notifications.
+- Error monitoring.
+
+If credentials are unavailable:
+
+1. Build the integration interface.
+2. Create secure configuration fields.
+3. Implement the integration-ready backend.
+4. Clearly identify what is waiting for credentials.
+5. Never pretend the integration is active.
+
+Store credentials securely on the server.
+
+---
+
+# PART 54 — COMPLETE QUALITY ASSURANCE AND TESTING
+
+Test the actual implementation.
+
+### Authentication tests
+
+1. Customer registration.
+2. Customer login.
+3. Google login.
+4. Password recovery.
+5. OTP verification.
+6. Session expiry.
+7. Logout.
+8. Role permissions.
+
+### Address and phone tests
+
+9. Current location permission.
+10. Location denial.
+11. Manual address.
+12. Address editing.
+13. Multiple addresses.
+14. Default address.
+15. Primary phone validation.
+16. Additional phone.
+17. Checkout contact selection.
+
+### Product tests
+
+18. Create product.
+19. Edit product.
+20. Delete/archive product.
+21. Upload images.
+22. Replace images.
+23. Delete images.
+24. Upload video.
+25. Video preview.
+26. 360 viewer.
+27. Variants.
+28. Stock updates.
+29. Search.
+30. Filters.
+31. Sorting.
+
+### Combo and cart tests
+
+32. Create combo.
+33. Edit combo.
+34. Combo stock validation.
+35. Add product to cart.
+36. Add combo to cart.
+37. Quantity update.
+38. Remove item.
+39. Coupon.
+40. Delivery calculation.
+41. COD calculation.
+42. Tax calculation.
+43. Final checkout amount.
+
+### Payment and shipping tests
+
+44. UPI payment.
+45. Gateway verification.
+46. Failed payment.
+47. Payment retry.
+48. COD order.
+49. Duplicate webhook protection.
+50. Shiprocket serviceability.
+51. Shipment creation.
+52. AWB handling.
+53. Tracking updates.
+54. Cancellation.
+55. Return.
+56. Refund.
+
+### Admin and business tests
+
+57. Admin login.
+58. Super Admin login.
+59. Employee permissions.
+60. Seller approval.
+61. Inventory.
+62. Warehouse transfers.
+63. Supplier purchase orders.
+64. Coupon configuration.
+65. Reviews.
+66. Notifications.
+67. Invoice generation.
+68. Analytics.
+69. Financial reconciliation.
+70. Feature Manager.
+71. Website Editor.
+72. AI Studio.
+
+### Multilingual tests
+
+73. Language selector.
+74. Language persistence.
+75. Tamil translation.
+76. Hindi translation.
+77. Other enabled Indian languages.
+78. International languages.
+79. RTL layouts.
+80. Product translations.
+81. Checkout translation.
+82. Admin translation.
+83. Seller translation.
+84. AI translation.
+85. Email and notification translation.
+
+### Advanced experience and security tests
+
+86. Mobile responsiveness.
+87. Tablet responsiveness.
+88. Desktop responsiveness.
+89. PWA installation.
+90. Accessibility.
+91. Performance.
+92. Secure file upload.
+93. Rate limiting.
+94. Authorization.
+95. Data privacy.
+96. Backup and recovery.
+97. Error handling.
+98. Payment secret protection.
+99. Customer data isolation.
+100. End-to-end order workflow.
+
+Fix all critical and high-priority issues before production launch.
+
+---
+
+# PART 55 — DEVELOPMENT ROADMAP
+
+Build the system in the following phases.
+
+**Phase 1 — Foundation**
+- New project.
+- Branding.
+- Frontend architecture.
+- Backend architecture.
+- Database.
+- Authentication foundation.
+- Security foundation.
+
+**Phase 2 — Customer accounts**
+- Registration.
+- Login.
+- Google OAuth.
+- Customer dashboard.
+- Addresses.
+- Phone numbers.
+- Location.
+
+**Phase 3 — Product management**
+- Products.
+- Categories.
+- Brands.
+- Images.
+- Videos.
+- Variants.
+- 360 viewer.
+
+**Phase 4 — Shopping**
+- Search.
+- Filters.
+- Sorting.
+- Combos.
+- Cart.
+- Coupons.
+- Pricing.
+- Checkout.
+
+**Phase 5 — Transactions**
+- Payments.
+- COD.
+- Shiprocket.
+- Orders.
+- Tracking.
+- Returns.
+- Refunds.
+- Invoices.
+
+**Phase 6 — Administration**
+- Admin dashboard.
+- Super Admin.
+- Feature Manager.
+- Website Editor.
+- Employees.
+- Sellers.
+
+**Phase 7 — Business operations**
+- Inventory.
+- Warehouses.
+- Suppliers.
+- Expenses.
+- Analytics.
+- Reports.
+- Financial reconciliation.
+
+**Phase 8 — Customer experience**
+- Wishlist.
+- Comparison.
+- Reviews.
+- Notifications.
+- Loyalty.
+- Gift cards.
+- Customer support.
+
+**Phase 9 — AI**
+- TK VEL AI.
+- AI Super Studio.
+- Product Creator.
+- Image Creator.
+- Video Creator.
+- AI Analytics.
+- AI Translation.
+
+**Phase 10 — Advanced features**
+- Smart search.
+- Visual search.
+- Voice search.
+- Recommendations.
+- Advanced tracking.
+- Marketing automation.
+
+**Phase 11 — Global and multilingual**
+- Language management.
+- Translation engine.
+- RTL.
+- Currency configuration.
+- International readiness.
+
+**Phase 12 — Testing and deployment**
+- Security tests.
+- End-to-end tests.
+- Performance tests.
+- Responsive tests.
+- Production configuration.
+- Deployment.
+- Backup and monitoring.
+
+---
+
+# PART 56 — FINAL NON-NEGOTIABLE REQUIREMENTS
+
+1. Build a completely new TK VEL ENTERPRISES website from scratch.
+2. Do not continue any old project.
+3. Do not reuse an old project URL, database, login or source code.
+4. Preserve all requirements in this master prompt.
+5. Do not silently remove features.
+6. Do not replace real features with static mockups.
+7. Every major feature must have a working frontend and backend.
+8. Use a real database.
+9. Use secure authentication.
+10. Use role-based permissions.
+11. Never expose passwords or API keys.
+12. Never invent payments, orders, ratings, reviews, shipping events or business information.
+13. Implement actual product and combo stock management.
+14. Implement accurate pricing and checkout calculations.
+15. Use real payment gateway verification.
+16. Use real Shiprocket responses.
+17. Implement the complete multilingual architecture.
+18. Ensure every enabled language has tested translations.
+19. Ensure customer data is private.
+20. Ensure mobile, tablet and desktop responsiveness.
+21. Build proper error handling.
+22. Build backups and audit logs.
+23. Test every major workflow.
+24. Clearly report unavailable integrations.
+25. Never claim an unfinished feature is complete.
+
+---
+
+# PART 57 — FINAL DEVELOPMENT INSTRUCTION
+
+Act as the complete development team for TK VEL ENTERPRISES.
+
+Start by inspecting the actual development environment and identifying the available technology stack, hosting capabilities, database, integrations and deployment constraints.
+
+Then:
+
+1. Prepare the technical architecture.
+2. Prepare the database schema.
+3. Prepare the frontend page structure.
+4. Prepare the backend API structure.
+5. Prepare the authentication and permission model.
+6. Prepare the integration architecture.
+7. Prepare the security plan.
+8. Build the project in phases.
+9. Connect each feature to its real backend.
+10. Test each feature.
+11. Fix implementation errors.
+12. Optimize performance.
+13. Prepare production deployment.
+14. Provide a complete completion report.
+
+For every major feature, implement:
+
+- Frontend interface.
+- Backend functionality.
+- Database storage.
+- Validation.
+- Authentication.
+- Permissions.
+- Error handling.
+- Testing.
+
+When external credentials are required, request them securely. If they are not available, finish all possible integration-ready work and clearly explain the remaining setup.
+
+### Final completion report
+
+At the end, provide:
+
+- Completed pages.
+- Completed features.
+- Database tables.
+- Backend APIs.
+- Authentication status.
+- Payment integration status.
+- Shiprocket integration status.
+- AI integration status.
+- Language support status.
+- Security test results.
+- Responsive test results.
+- Deployment status.
+- Hosting limitations.
+- Required credentials.
+- Remaining tasks.
+
+**FINAL GOAL:**
+
+Build TK VEL ENTERPRISES as a complete, original, secure, scalable, multilingual, AI-powered ecommerce marketplace with a professional customer storefront, advanced admin dashboard, separate Super Admin system, seller marketplace, employee management, real product and inventory operations, payment gateway, shipping integration, customer support, AI Super Studio and complete business management tools.
+
+The final result must be a real working ecommerce platform, not merely a design, prototype or static demonstration.
+
+**Brand identity: TK VEL ENTERPRISES — Your Trusted Online Shopping Store.**
+
+Important development note: This prompt specifies the full intended platform. Some features require paid or separately configured services, such as payment gateways, Shiprocket, SMS/OTP, Google OAuth, translation APIs, AI APIs and media storage. The developer must clearly identify those dependencies rather than pretending they are already connected.
